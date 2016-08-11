@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>New Piskel</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<integer>1</integer>
+						<key>friction</key>
+						<real>0.80000000000000004</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledConcaveShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-24.600000977516174, -55.200002193450928}</string>
+								<string>{24.600000977516174, -55.200002193450928}</string>
+								<string>{24.600000977516174, 54.60000216960907}</string>
+								<string>{-25.200001001358032, 54.60000216960907}</string>
+								<string>{-25.200001001358032, -54.60000216960907}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 2.000000}, {50.000000, 110.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{31.000000, 36.000000}, {50.000000, 110.000000}}</string>
+			<key>sourceSize</key>
+			<string>{50.000000, 110.000000}</string>
+			<key>uuid</key>
+			<string>8707EACD-2928-4297-B022-BC74B9A74451</string>
+		</dict>
+		<key>New Piskel (1)</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<integer>1</integer>
+						<key>friction</key>
+						<real>0.80000000000000004</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledConcaveShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{61.300002217292786, 3.6000007390975952}</string>
+								<string>{-50.900002241134644, 3.6000007390975952}</string>
+								<string>{-14.900000810623169, -33.600000739097595}</string>
+								<string>{61.300002217292786, -34.200000762939453}</string>
+							</array>
+							<array>
+								<string>{-14.900000810623169, -33.600000739097595}</string>
+								<string>{-14.900000810623169, -34.200000762939453}</string>
+								<string>{61.300002217292786, -34.200000762939453}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{2.000000, 117.000000}, {113.000000, 38.000000}}</string>
+			<key>offset</key>
+			<string>{5.500000, 15.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{26.000000, 43.000000}, {113.000000, 38.000000}}</string>
+			<key>sourceSize</key>
+			<string>{154.000000, 154.000000}</string>
+			<key>uuid</key>
+			<string>0402196F-78BF-432A-96B3-3FFA78BBC9D7</string>
+		</dict>
+		<key>button</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{115.000000, 24.000000}, {36.000000, 70.000000}}</string>
+			<key>offset</key>
+			<string>{-28.000000, 11.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{31.000000, 31.000000}, {36.000000, 70.000000}}</string>
+			<key>sourceSize</key>
+			<string>{154.000000, 154.000000}</string>
+			<key>uuid</key>
+			<string>A86107B1-9F9F-4F79-9900-7F44A944283B</string>
+		</dict>
+		<key>hero</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.69999999999999996</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledConcaveShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-6.600000262260437, -8.4000003337860107}</string>
+								<string>{6.600000262260437, -8.4000003337860107}</string>
+								<string>{6.600000262260437, 7.8000003099441528}</string>
+								<string>{-7.2000002861022949, 7.8000003099441528}</string>
+								<string>{-7.2000002861022949, -7.8000003099441528}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{120.000000, 3.000000}, {14.000000, 17.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{36.000000, 70.000000}, {14.000000, 17.000000}}</string>
+			<key>sourceSize</key>
+			<string>{14.000000, 17.000000}</string>
+			<key>uuid</key>
+			<string>5CFE4D3D-6C15-4342-8C6C-B9097D6F91CC</string>
+		</dict>
+		<key>jumpButton</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array/>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{57.000000, 2.000000}, {53.000000, 53.000000}}</string>
+			<key>offset</key>
+			<string>{-7.500000, -4.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{43.000000, 55.000000}, {53.000000, 53.000000}}</string>
+			<key>sourceSize</key>
+			<string>{154.000000, 154.000000}</string>
+			<key>uuid</key>
+			<string>A6BD89F3-D061-4D94-B261-2B130DCBE313</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<real>1.2</real>
+		<key>size</key>
+		<string>{153.000000, 158.000000}</string>
+		<key>textureFileName</key>
+		<string>spritesheets.png</string>
+	</dict>
+</dict>
+</plist>

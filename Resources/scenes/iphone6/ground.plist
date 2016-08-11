@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>ground</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<integer>1</integer>
+						<key>friction</key>
+						<real>0.80000000000000004</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledConcaveShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{204.00000810623169, -56.400002241134644}</string>
+								<string>{204.00000810623169, -57.000002264976501}</string>
+								<string>{269.4000107049942, -57.000002264976501}</string>
+								<string>{269.4000107049942, 56.400002241134644}</string>
+							</array>
+							<array>
+								<string>{269.4000107049942, 56.400002241134644}</string>
+								<string>{-270.00001072883606, 56.400002241134644}</string>
+								<string>{-270.00001072883606, -39.000001549720764}</string>
+								<string>{-168.00000667572021, -27.000001072883606}</string>
+							</array>
+							<array>
+								<string>{167.40000665187836, -39.000001549720764}</string>
+								<string>{204.00000810623169, -56.400002241134644}</string>
+								<string>{269.4000107049942, 56.400002241134644}</string>
+							</array>
+							<array>
+								<string>{18.000000715255737, -51.000002026557922}</string>
+								<string>{167.40000665187836, -39.000001549720764}</string>
+								<string>{269.4000107049942, 56.400002241134644}</string>
+								<string>{-60.600002408027649, -15.000000596046448}</string>
+							</array>
+							<array>
+								<string>{-270.00001072883606, -39.000001549720764}</string>
+								<string>{-204.60000813007355, -45.000001788139343}</string>
+								<string>{-168.00000667572021, -27.000001072883606}</string>
+							</array>
+							<array>
+								<string>{-60.600002408027649, -15.000000596046448}</string>
+								<string>{269.4000107049942, 56.400002241134644}</string>
+								<string>{-168.00000667572021, -27.000001072883606}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 0.000000}, {540.000000, 114.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 60.000000}, {540.000000, 114.000000}}</string>
+			<key>sourceSize</key>
+			<string>{540.000000, 114.000000}</string>
+			<key>uuid</key>
+			<string>56FED144-1852-4605-9365-DEF1F55DC2AB</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<real>1.2</real>
+		<key>size</key>
+		<string>{542.000000, 116.000000}</string>
+		<key>textureFileName</key>
+		<string>ground.png</string>
+	</dict>
+</dict>
+</plist>

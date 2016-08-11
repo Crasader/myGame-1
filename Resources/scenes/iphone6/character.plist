@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>CharacterAnim [www.imagesplitter.net]-0-0</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -21.700001001358032}</string>
+								<string>{7.5000004768371582, -21.700001001358032}</string>
+								<string>{7.5000004768371582, 28.700001001358032}</string>
+								<string>{-16.500000476837158, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{3.000000, 120.000000}, {24.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 22.000000}, {50.000000, 24.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>9A9A1AC0-E0CB-4B5B-BC3B-1CAE2542AA31</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-0-1</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -24.400001049041748}</string>
+								<string>{7.5000004768371582, -24.400001049041748}</string>
+								<string>{7.5000004768371582, 28.400001049041748}</string>
+								<string>{-16.500000476837158, 28.400001049041748}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{58.000000, 3.000000}, {24.000000, 53.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -2.000000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 22.000000}, {53.000000, 24.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>1174C164-2A5F-4BB1-875D-AD99DAA73F01</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-0-2</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -21.700001001358032}</string>
+								<string>{7.5000004768371582, -21.700001001358032}</string>
+								<string>{7.5000004768371582, 28.700001001358032}</string>
+								<string>{-16.500000476837158, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{3.000000, 92.000000}, {24.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 22.000000}, {50.000000, 24.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>AA28BD99-454E-4A8F-A4EE-8286E4E872E5</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-1-0</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-19.700000524520874, -21.700001001358032}</string>
+								<string>{6.700000524520874, -21.700001001358032}</string>
+								<string>{6.700000524520874, 28.700001001358032}</string>
+								<string>{-19.700000524520874, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{3.000000, 2.000000}, {26.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-6.500000, -3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 19.000000}, {50.000000, 26.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>4C012B67-1602-47CF-9C6D-5B3C34996A00</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-1-1</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -21.700001001358032}</string>
+								<string>{7.5000004768371582, -21.700001001358032}</string>
+								<string>{7.5000004768371582, 28.700001001358032}</string>
+								<string>{-16.500000476837158, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{87.000000, 89.000000}, {24.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -3.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{22.000000, 17.000000}, {24.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>0C4D1C00-319B-43F3-AFEB-BA75FE1E4DE8</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-1-2</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -21.700001001358032}</string>
+								<string>{7.5000004768371582, -21.700001001358032}</string>
+								<string>{7.5000004768371582, 28.700001001358032}</string>
+								<string>{-16.500000476837158, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{58.000000, 89.000000}, {24.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -3.500000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{22.000000, 17.000000}, {24.000000, 50.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>C7323A9D-658E-4095-95D7-0F97708D7EB0</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-2-0</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -21.700001001358032}</string>
+								<string>{7.5000004768371582, -21.700001001358032}</string>
+								<string>{7.5000004768371582, 28.700001001358032}</string>
+								<string>{-16.500000476837158, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{3.000000, 63.000000}, {24.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 22.000000}, {50.000000, 24.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>31ECF270-8D38-4DFB-BC36-686938156171</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-2-1</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -21.700001001358032}</string>
+								<string>{7.5000004768371582, -21.700001001358032}</string>
+								<string>{7.5000004768371582, 28.700001001358032}</string>
+								<string>{-16.500000476837158, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{58.000000, 60.000000}, {24.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 22.000000}, {50.000000, 24.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>90A40A1D-5825-4C26-A57E-69A4CEAD04FF</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-2-2</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.29999999999999999</real>
+						<key>friction</key>
+						<real>0.20000000000000001</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -21.700001001358032}</string>
+								<string>{7.5000004768371582, -21.700001001358032}</string>
+								<string>{7.5000004768371582, 28.700001001358032}</string>
+								<string>{-16.500000476837158, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{3.000000, 34.000000}, {24.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 22.000000}, {50.000000, 24.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>207F3AD3-90D4-4545-ABA3-BE23B34BF90F</string>
+		</dict>
+		<key>CharacterAnim [www.imagesplitter.net]-3-0</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<false/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<real>0.20000000000000001</real>
+						<key>friction</key>
+						<real>0.29999999999999999</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledRectangleShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{-16.500000476837158, -21.700001001358032}</string>
+								<string>{7.5000004768371582, -21.700001001358032}</string>
+								<string>{7.5000004768371582, 28.700001001358032}</string>
+								<string>{-16.500000476837158, 28.700001001358032}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{58.000000, 32.000000}, {24.000000, 50.000000}}</string>
+			<key>offset</key>
+			<string>{-4.500000, -3.500000}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{10.000000, 22.000000}, {50.000000, 24.000000}}</string>
+			<key>sourceSize</key>
+			<string>{77.000000, 77.000000}</string>
+			<key>uuid</key>
+			<string>DA08D1D7-0B9B-4BC8-BCB1-598B74DBEE92</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<real>1.2</real>
+		<key>size</key>
+		<string>{112.000000, 146.000000}</string>
+		<key>textureFileName</key>
+		<string>character.png</string>
+	</dict>
+</dict>
+</plist>

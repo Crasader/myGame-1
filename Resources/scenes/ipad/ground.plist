@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>LevelHelper 2</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>frames</key>
+	<dict>
+		<key>ground</key>
+		<dict>
+			<key>body</key>
+			<dict>
+				<key>allowSleep</key>
+				<true/>
+				<key>angularDamping</key>
+				<integer>0</integer>
+				<key>angularVelocity</key>
+				<integer>0</integer>
+				<key>bullet</key>
+				<false/>
+				<key>fixedRotation</key>
+				<true/>
+				<key>gravityScale</key>
+				<integer>1</integer>
+				<key>linearDamping</key>
+				<integer>0</integer>
+				<key>linearVelocity</key>
+				<string>{0.000000, 0.000000}</string>
+				<key>shapes</key>
+				<array>
+					<dict>
+						<key>category</key>
+						<integer>1</integer>
+						<key>density</key>
+						<integer>1</integer>
+						<key>friction</key>
+						<real>0.80000000000000004</real>
+						<key>mask</key>
+						<integer>65535</integer>
+						<key>name</key>
+						<string>UntitledConcaveShape</string>
+						<key>points</key>
+						<array>
+							<array>
+								<string>{170, -47}</string>
+								<string>{170, -47.5}</string>
+								<string>{224.5, -47.5}</string>
+								<string>{224.5, 47}</string>
+							</array>
+							<array>
+								<string>{224.5, 47}</string>
+								<string>{-225, 47}</string>
+								<string>{-225, -32.5}</string>
+								<string>{-140, -22.5}</string>
+							</array>
+							<array>
+								<string>{139.5, -32.5}</string>
+								<string>{170, -47}</string>
+								<string>{224.5, 47}</string>
+							</array>
+							<array>
+								<string>{15, -42.5}</string>
+								<string>{139.5, -32.5}</string>
+								<string>{224.5, 47}</string>
+								<string>{-50.5, -12.5}</string>
+							</array>
+							<array>
+								<string>{-225, -32.5}</string>
+								<string>{-170.5, -37.5}</string>
+								<string>{-140, -22.5}</string>
+							</array>
+							<array>
+								<string>{-50.5, -12.5}</string>
+								<string>{224.5, 47}</string>
+								<string>{-140, -22.5}</string>
+							</array>
+						</array>
+						<key>restitution</key>
+						<integer>0</integer>
+						<key>sensor</key>
+						<false/>
+						<key>shapeID</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>frame</key>
+			<string>{{0.000000, 0.000000}, {450.000000, 95.000000}}</string>
+			<key>offset</key>
+			<string>{0.000000, 0.000000}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0.000000, 50.000000}, {450.000000, 95.000000}}</string>
+			<key>sourceSize</key>
+			<string>{450.000000, 95.000000}</string>
+			<key>uuid</key>
+			<string>56FED144-1852-4605-9365-DEF1F55DC2AB</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>ratio</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{452.000000, 97.000000}</string>
+		<key>textureFileName</key>
+		<string>ground.png</string>
+	</dict>
+</dict>
+</plist>
